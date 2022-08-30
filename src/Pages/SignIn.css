@@ -1,0 +1,110 @@
+.background-image {
+  position: absolute;
+  width: 704px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  opacity: 0.7;
+}
+
+.form-div,
+.sign-up-form-div {
+  /* position: absolute; */
+  width: 100%;
+  height: 900px;
+  background-color: #ffffff;
+}
+
+.form-div h2,
+.sign-up-form-div h2 {
+  position: absolute;
+  height: 33px;
+  left: 932px;
+  top: 278px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  /* line-height: 33px; */
+  color: #00302e;
+}
+
+.sign-up-form-div h2 {
+  top: 204px;
+}
+
+.sign-up-form-div #name {
+  position: absolute;
+  width: 488px;
+  height: 71px;
+  left: 800px;
+  top: 298px;
+  background: rgba(255, 255, 255, 0.83);
+  border: 2px solid rgba(1, 46, 28, 0.51);
+  border-radius: 5px;
+  padding-left: 25px;
+}
+
+.form-div #email,
+.form-div #password,
+.sign-up-form-div #email,
+.sign-up-form-div #password {
+  position: absolute;
+  width: 488px;
+  height: 71px;
+  left: 800px;
+  top: 402px;
+  background: rgba(255, 255, 255, 0.83);
+  border: 2px solid rgba(1, 46, 28, 0.51);
+  border-radius: 5px;
+  padding-left: 25px;
+}
+
+.form-div #password,
+.sign-up-form-div #password {
+  top: 515px;
+}
+
+.form-div #email {
+  top: 416px;
+}
+
+.log-in-button Button,
+.sign-up-button Button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+  gap: 10px;
+  position: absolute;
+  width: 488px;
+  height: 60px;
+  left: 800px;
+  top: 610px;
+  background: #00302e;
+  color: #fbddbb;
+  border-radius: 5px;
+}
+
+.create-account,
+.forgot-password {
+  position: absolute;
+  width: 133px;
+  height: 33px;
+  left: 846px;
+  top: 704px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 33px;
+  text-align: center;
+  color: rgba(0, 48, 46, 0.91);
+  text-decoration: none;
+}
+
+.forgot-password {
+  left: 1100px;
+}

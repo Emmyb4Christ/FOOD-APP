@@ -1,0 +1,11 @@
+/* PARENT BUTTON (Reusable Components) */
+.button {
+  position: absolute;
+  width: 142px;
+  height: 53px;
+  left: 1100px;
+  top: 73px;
+  background: #e2b887;
+  border-radius: 7px;
+  cursor: pointer;
+}
