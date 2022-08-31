@@ -72,7 +72,7 @@
 }
 
 .log-in-button Button:hover,
-.sign-up-button Button {
+.sign-up-button Button:hover {
   background-color: #004b48;
 }
 
