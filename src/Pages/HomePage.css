@@ -5,35 +5,15 @@
   align-items: center;
 }
 
-.logo {
-  position: absolute;
-  left: 6.81%;
-  right: 89.2%;
-  top: 73px;
-  bottom: 94.96%;
-}
-
-.logo1 {
-  position: absolute;
-  left: 10.81%;
-  right: 89.79%;
-  margin-top: 10.5rem;
-  bottom: 94.96%;
-}
-
-.logo2 {
-  position: absolute;
-  left: 45.81%;
-  right: 99.2%;
-  margin-bottom: -1.5rem;
-  bottom: 94.96%;
+.nav-bar-items {
+  display: flex;
+  gap: 50px;
+  padding: 70px 0 0 150px;
 }
 
 .header {
-  position: absolute;
-  /* width: 92px; */
   height: 46px;
-  left: 178px;
+  padding: 30px 0 0 100px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -42,34 +22,18 @@
   color: #ffffff;
 }
 
-.nav-item-1 {
-  position: absolute;
-  width: 57px;
-  height: 33px;
-  left: 800px;
-  top: 80px;
+.nav-item-1,
+.nav-item-2 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 21px;
-  line-height: 33px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.87);
 }
 
 .nav-item-2 {
-  position: absolute;
-  width: 63px;
-  height: 33px;
-  left: 900px;
-  top: 80px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 21px;
-  line-height: 33px;
   color: #fbddbb;
-  text-decoration: none;
 }
 
 .nav-item-1:hover,
@@ -78,50 +42,47 @@
 }
 
 /* SECTION 1 */
-.section-1 h3 {
-  position: absolute;
-  width: 650px;
-  height: 167px;
-  left: 98px;
-  top: 361px;
+.section-1 {
+  display: flex;
+  gap: 80px;
+}
+
+.section-1 h3,
+.section-1 p {
+  width: 750px;
+  padding: 160px 0 0 68px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 64px;
-  line-height: 77px;
   color: #ffffff;
 }
 
 .section-1 p {
-  position: absolute;
   width: 609px;
   height: 77px;
-  left: 98px;
-  top: 549px;
-  font-family: "Poppins";
-  font-style: normal;
+  padding: 40px 0 0 68px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 33px;
   color: rgba(255, 255, 255, 0.74);
 }
 
 .section-1-image {
   display: flex;
-  position: absolute;
-  top: 650px;
-  left: 98px;
-  gap: 25px;
+  padding: 0 0 0 10px;
+  margin-top: -5rem;
+}
+
+.section-1 img {
+  margin: 160px 0 0 58px;
 }
 
 /* SECTION 2 */
 
-.section-2 h3 {
-  position: absolute;
-  width: 463px;
-  height: 33px;
-  left: 489px;
-  top: 867px;
+.section-2 h3,
+.section-2 p {
+  text-align: center;
+  margin: 170px 0 0 0;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -131,13 +92,8 @@
 }
 
 .section-2 p {
-  position: relative;
   width: 609px;
-  height: 77px;
-  left: 423px;
-  top: 935px;
-  font-family: "Poppins";
-  font-style: normal;
+  margin: 30px 0 0 385px;
   font-weight: 400;
   font-size: 18px;
   line-height: 33px;
@@ -148,27 +104,21 @@
 /* SECTION 3 */
 
 .section-3 {
-  position: absolute;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  top: 1108px;
-  left: 116px;
-  gap: 450px;
+  text-align: center;
+  margin: 100px 0 0 0;
 }
 
 .section-3 img {
-  position: absolute;
   width: 250px;
   height: 250px;
 }
 
-.section-3 h3 {
-  position: absolute;
-  width: 177px;
-  height: 33px;
-  /* left: 186px; */
-  margin-left: 30px;
-  top: 285px;
+.section-3 h3,
+.section-3 p {
+  margin: 20px 0 0 0;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -179,29 +129,22 @@
 }
 
 .section-3 p {
-  position: absolute;
   width: 288px;
-  height: 66px;
   top: 332px;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 33px;
-  text-align: center;
   color: rgba(255, 255, 255, 0.83);
 }
 
 /* SECTION 4 */
 .section-4 {
-  position: absolute;
   display: flex;
-  left: 128px;
-  top: 1775px;
+  justify-content: space-evenly;
+  margin-top: 300px;
 }
 
-.section-4 h3 {
-  height: 33px;
+.section-4 h3,
+.section-4 p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -211,22 +154,22 @@
 }
 
 .section-4 p {
-  position: absolute;
-  top: 65px;
-  font-family: "Poppins";
-  font-style: normal;
+  margin-top: 20px;
+  width: 531px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 33px;
   color: rgba(255, 255, 255, 0.95);
 }
 
+.notification-button {
+  display: flex;
+  border: none;
+}
+
 .notification-button input {
-  position: absolute;
   outline: none;
   width: 299px;
   height: 51px;
-  left: 680px;
   padding: 10px;
   font-weight: 700;
   background: #f7f7f7;
@@ -235,42 +178,35 @@
 }
 
 .notification-button input::placeholder {
-  position: absolute;
-  width: 199px;
-  height: 21px;
-  top: 62px;
-  font-family: "Rubik";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  text-align: center;
+  padding-left: 20px;
 
   color: #b2b2b2;
 }
 
 .notification-button Button {
-  position: absolute;
-  width: 182px;
-  height: 51px;
   border-radius: 7px;
   cursor: pointer;
   width: 182px;
-  padding: 15px 40px;
-  left: 1000px;
-  top: 0px;
+  margin: 0 0 -2px 20px;
+  font-family: "Inter";
+  font-weight: 500;
 }
 
 /* FOOTER SECTION */
 
 .footer {
-  position: absolute;
-  display: block;
-  position: absolute;
-  width: 1440px;
-  height: 393px;
-  left: 0px;
-  top: 2107px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  padding: 100px 0 0 150px;
   background: #0b0d17;
 }
 
@@ -289,16 +225,18 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 50px;
   color: #eeeff4;
 }
 
-.footer-content-1 {
-  position: absolute;
+.footer-content {
   display: flex;
-  gap: 200px;
-  top: 70px;
-  left: 128px;
+  gap: 150px;
+  /* margin-left: -13rem; */
+}
+
+.footer-content-col {
+  width: 150px;
 }
 
 .footer p {
@@ -311,8 +249,26 @@
   color: #d9dbe1;
 }
 
+.footer-content-col4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: -2rem;
+}
+
+footer-content-col4 img {
+  padding-bottom: -2rem;
+}
+
+.footer-last-row {
+  display: flex;
+  gap: 730px;
+  padding: 100px 0 20px 0;
+}
+
 .social-media-icon {
   display: flex;
+  float: left;
   gap: 15px;
   font-size: 24px;
   padding-right: -120px;
@@ -322,3 +278,15 @@
   color: #ffffff;
   cursor: pointer;
 }
+
+.menu i {
+  font-size: 30px;
+  color: white;
+  padding-right: 20px;
+  margin-top: 70px;
+  display: none;
+}
+
+/* MEDIA QUERY */
+/* @media only screen and (max-width: 320px) {
+} */

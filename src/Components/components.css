@@ -1,11 +1,15 @@
 /* PARENT BUTTON (Reusable Components) */
 .button {
-  position: absolute;
   width: 142px;
   height: 53px;
-  left: 1100px;
-  top: 73px;
+  margin-left: 50px;
   background: #e2b887;
+  border: none;
   border-radius: 7px;
   cursor: pointer;
+  margin-top: -0.5rem;
+}
+
+.button:hover {
+  background-color: #ffffff;
 }
