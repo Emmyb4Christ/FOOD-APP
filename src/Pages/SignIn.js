@@ -15,15 +15,17 @@ const SignIn = () => {
   };
 
   return (
-    <div style={{ display: "flex", gap: "0" }}>
-      <img
-        className="background-image"
-        src={require("../Images/register-background.png")}
-        alt="google-get-logo"
-      />
+    <div className="container-div">
+      <div>
+        <img
+          className="background-image"
+          src={require("../Images/register-background.png")}
+          alt="google-get-logo"
+        />
+      </div>
       <div className="form-div">
         <h2> Welcome Back! </h2>
-        <form>
+        <form className="form">
           <input
             id="email"
             type="email"
@@ -41,7 +43,7 @@ const SignIn = () => {
           <div className="log-in-button">
             <Button text="LOGIN" onClick={handleLogin} />
           </div>
-          <div style={{ display: "flex" }}>
+          <div className="form-last-col">
             <NavLink className="create-account" to="/sign-up">
               Create an account
             </NavLink>

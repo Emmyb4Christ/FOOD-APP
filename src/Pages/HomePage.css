@@ -232,7 +232,6 @@
 .footer-content {
   display: flex;
   gap: 150px;
-  /* margin-left: -13rem; */
 }
 
 .footer-content-col {
@@ -268,10 +267,8 @@ footer-content-col4 img {
 
 .social-media-icon {
   display: flex;
-  float: left;
   gap: 15px;
   font-size: 24px;
-  padding-right: -120px;
 }
 
 .social-media-icon a {
@@ -281,7 +278,6 @@ footer-content-col4 img {
 
 .menu i {
   font-size: 30px;
-  color: white;
   padding-right: 20px;
   margin-top: 70px;
   display: none;

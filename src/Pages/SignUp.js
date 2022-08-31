@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "../Components/Button";
 import { NavLink } from "react-router-dom";
-import "./SignUp.css";
+import "./SignIn.css";
 
 const SignUp = () => {
   return (
-    <div style={{ display: "flex", gap: "0" }}>
+    <div className="container-div">
       <img
         className="sign-up-background-image"
         src={require("../Images/sign-up-background.png")}
@@ -38,17 +38,10 @@ const SignUp = () => {
           <div className="sign-up-button">
             <Button text="SIGN UP" />
           </div>
-          <div style={{ position: "absolute", top: "724px", left: "978px" }}>
-            <p
-              style={{
-                fontSize: "14px",
-                color: "rgba(0, 48, 46, 0.91)",
-                fontWeight: "400",
-                fontStyle: "normal",
-              }}
-            >
+          <div className="form-last-col sign-up-last-col">
+            <p>
               Already have an account?
-              <NavLink style={{ textDecoration: "none" }} to="/sign-in">
+              <NavLink className="nav-link" to="/sign-in">
                 LOGIN
               </NavLink>
             </p>
