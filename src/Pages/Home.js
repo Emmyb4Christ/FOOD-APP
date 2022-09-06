@@ -13,7 +13,7 @@ const Home = () => {
         <div>
           <h1 className="header"> Lilies </h1>
         </div>
-        <div className="nav-bar-items">
+        <div id="nav-bar-items" className="nav-bar-items">
           <NavLink className="nav-item-1" to="/">
             Home
           </NavLink>
@@ -29,7 +29,7 @@ const Home = () => {
           )}
         </div>
 
-        <div className="menu">
+        <div id="menu">
           <i class="fa-solid fa-bars"></i>
         </div>
       </div>
